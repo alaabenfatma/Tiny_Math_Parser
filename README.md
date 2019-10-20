@@ -19,7 +19,9 @@ _output:_ 8.0
 
 ### Methodology
 
-The grammar is an implementation of the following grammar:
+I did use the *recursive descent* method that is widely used for it being one of the most optimal ways of evaluating nested mathematical expressions.
+
+The script is an implementation of the following grammar:
 
 ```
 parse -> low_priority_terms_trigger
